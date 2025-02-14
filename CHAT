@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat de SysAid</title>
+</head>
+<body>
+    <span id="chatImageSpan"></span>
+    <div style="color: #7A7B7F; font-weight: bold; font-size: 8px;" id="sysaidChatInc">
+        <br>
+        <a href="http://www.ilient.com">
+            <img style="border:0;cursor:pointer" src="https://stratech.sysaidit.com:443/icons/chat/powered-by-SysAid.png" alt="SysAid Help Desk Software">
+        </a>
+    </div>
+
+    <script type="text/javascript">
+        var chatQueue = "2";
+        var enduserportal = "0";
+        var chatAccnt = 'stratech';
+        var chatUrlPreffix = "https://stratech.sysaidit.com:443/";
+        var offlineImage = "https://stratech.sysaidit.com:443/icons/chat/dr_chats_offline.png";
+        var onlineImage = "https://stratech.sysaidit.com:443/icons/chat/dr_chats_online.png";
+    </script>
+    
+    <script type="text/javascript" src="https://stratech.sysaidit.com:443/ChatImage?queue=2&amp;script=yes"></script>
+</body>
+</html>
